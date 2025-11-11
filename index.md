@@ -1,9 +1,9 @@
 ---
 ---
 
-# iliak14's Website
+# Kevlishvili group
 
-An engaging 1-3 sentence description of your lab.
+Kevlishvili group develops new ways to represent molecules and materials as data, so that computers can see chemistry the way chemists do. Using these representations, we build AI and simulation tools to design catalysts, smart polymers, and other functional systems for clean energy, sustainability, and medicine. By reinventing how chemical information is encoded and explored, we aim to make discovery faster, more predictive, and more accessible across the scientific community.
 
 {% include section.html %}
 
