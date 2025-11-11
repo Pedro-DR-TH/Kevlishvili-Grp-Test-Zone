@@ -1,19 +1,19 @@
 # site properties and page defaults
-title: iliak14
+title: Kevlishvili Group
 subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+description: Kevlishvili group develops new ways to represent molecules and materials as data, so that computers can see chemistry the way chemists do. Using these representations, we build AI and simulation tools to design catalysts, smart polymers, and other functional systems for clean energy, sustainability, and medicine. By reinventing how chemical information is encoded and explored, we aim to make discovery faster, more predictive, and more accessible across the scientific community.
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@iliak14.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: ilia_kevlishvili@baylor.edu
+  orcid: 0000-0001-8133-4165
+  google-scholar: https://scholar.google.com/citations?user=vIZTq-EAAAAJ&hl=en&inst=7107678405454710058&oi=ao
   github: iliak14
-  twitter: iliak14
-  youtube: iliak14
+  twitter: KevlishviliIlia
+
 
 ### jekyll settings
 
