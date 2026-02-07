@@ -1,6 +1,6 @@
 ---
 name: Kavya Duthaluru
-image: images/photo.jpg
+image: images/Kavya.jpeg
 role: phd
 description: Graduate Student
 affiliation: Baylor University
