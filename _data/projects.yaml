@@ -1,7 +1,7 @@
 - title: "T-REX: Canonical Representations for Transition-Metal Complexes"
   subtitle: String-based encoding of metal topology, geometry, oxidation, and spin
   group: featured
-  image: images/photo.jpg
+  image: images/TOC_trex.jpg
   link: https://doi.org/10.26434/chemrxiv-2025-7s3gx
   repo: iliak14/trex
   description: T-REX is a canonical, invertible string representation for transition-metal complexes that explicitly encodes metal identity, coordination topology, geometry, oxidation state, and spin. Its extension, MUL-T-REX, generalizes to multinuclear clusters by capturing metal-metal connectivity and bridging topology at each site. These representations make inorganic chemical space searchable, reproducible, and model-ready.
@@ -22,7 +22,6 @@
   subtitle: ML models for photochemistry, electrochemistry, catalysis, and pharma
   image: images/photo.jpg
   description: Building on the T-REX representation, we train property prediction and virtual screening models for transition-metal complexes across diverse application domains. Our curated datasets — tmCAT, tmPHOTO, tmBIO, and tmSCO — built using natural language processing of the primary literature, provide the training data that powers these models.
-  link: https://doi.org/10.1039/D4FD00087K
   tags:
     - software
     - publication
