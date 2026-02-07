@@ -1,5 +1,5 @@
 ---
-title: Current members
+title: Team
 nav:
   order: 3
   tooltip: About our team
@@ -7,23 +7,16 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-
 {% include section.html %}
 
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
+## Join Us
+
+We are always looking for motivated students and postdocs to join the group. If you are interested in computational chemistry, machine learning, and catalysis, please reach out to Ilia at [ilia_kevlishvili@baylor.edu](mailto:ilia_kevlishvili@baylor.edu) with your CV and a brief description of your research interests.
 
 {% include section.html %}
-
-{% capture content %}
-
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
