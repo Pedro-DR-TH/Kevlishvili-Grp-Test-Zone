@@ -10,72 +10,28 @@ Kevlishvili group develops new ways to represent molecules and materials as data
 ## Highlights
 
 {% capture text %}
+We develop canonical string representations for inorganic and organometallic complexes, foundation models that learn the logic of catalytic cycles, and transfer learning pipelines for mechanophore discovery. Our work spans catalysis, photochemistry, electrochemistry, mechanochemistry, and pharmaceutical design.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+{% include button.html link="research" text="See our publications" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 
 {% endcapture %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+{% include feature.html image="images/photo.jpg" link="research" title="Our Research" text=text %}
 
 {% capture text %}
+From T-REX — a canonical grammar for transition-metal complexes — to foundation models for catalysis and multi-stage mechanophore design pipelines, we build computational tools that make inorganic chemical space navigable and predictive.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+{% include button.html link="projects" text="Browse our projects" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 
 {% endcapture %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
+{% include feature.html image="images/photo.jpg" link="projects" title="Our Projects" flip=true style="bare" text=text %}
 
 {% capture text %}
+We are a new and growing group in the Department of Chemistry and Biochemistry at Baylor University. Our team brings together expertise in computational chemistry, machine learning, and data science. We are actively recruiting motivated students and postdocs.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+{% include button.html link="team" text="Meet our team" icon="fa-solid fa-arrow-right" flip=true style="bare" %}
 
 {% endcapture %}
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
+{% include feature.html image="images/photo.jpg" link="team" title="Our Team" text=text %}
