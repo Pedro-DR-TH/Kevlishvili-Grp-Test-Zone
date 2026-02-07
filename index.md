@@ -16,7 +16,7 @@ We develop canonical string representations for inorganic and organometallic com
 
 {% endcapture %}
 
-{% include feature.html image="images/photo.jpg" link="research" title="Our Research" text=text %}
+{% include feature.html image="images/research_overview.jpg" link="research" title="Our Research" text=text %}
 
 {% capture text %}
 From T-REX — a canonical grammar for transition-metal complexes — to foundation models for catalysis and multi-stage mechanophore design pipelines, we build computational tools that make inorganic chemical space navigable and predictive.
