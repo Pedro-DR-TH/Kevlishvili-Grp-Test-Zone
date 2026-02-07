@@ -1,42 +1,26 @@
-- title: "T-REX: Canonical Representations for Transition-Metal Complexes"
-  subtitle: String-based encoding of metal topology, geometry, oxidation, and spin
-  group: featured
-  image: images/photo.jpg
-  link: https://doi.org/10.26434/chemrxiv-2025-7s3gx
-  description: T-REX is a canonical, invertible string representation for transition-metal complexes that explicitly encodes metal identity, coordination topology, geometry, oxidation state, and spin. Its extension, MUL-T-REX, generalizes to multinuclear clusters by capturing metal-metal connectivity and bridging topology at each site. These representations make inorganic chemical space searchable, reproducible, and model-ready.
-  tags:
-    - representation
-    - resource
+---
+title: Projects
+nav:
+  order: 2
+  tooltip: Software, datasets, and more
+---
 
-- title: "CAT-FM: A Foundation Model for Transition-Metal Catalysis"
-  subtitle: LLM-type transformers that learn catalytic cycle logic from T-REX sequences
-  group: featured
-  image: images/photo.jpg
-  description: CAT-FM is a catalysis-focused foundation model that treats catalytic cycles as grammatical sequences of T-REX tokens, learning the causal logic of chemical transformations. Trained on dual data streams from high-fidelity manual datasets and automated literature extraction, CAT-FM supports downstream tasks including yield and selectivity prediction, mechanistic reasoning, and catalyst candidate generation.
-  tags:
-    - software
-    - resource
+# {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-- title: T-REX Cheminformatics and Property Prediction
-  subtitle: ML models for photochemistry, electrochemistry, catalysis, and pharma
-  image: images/photo.jpg
-  description: Building on the T-REX representation, we train property prediction and virtual screening models for transition-metal complexes across diverse application domains. Our curated datasets — tmCAT, tmPHOTO, tmBIO, and tmSCO — built using natural language processing of the primary literature, provide the training data that powers these models.
-  link: https://doi.org/10.1039/D4FD00087K
-  tags:
-    - resource
-    - publication
+Our group develops computational tools, datasets, and models for inorganic and organometallic chemistry. Many of these projects are in active development — check back for updates, code releases, and new datasets.
 
-- title: Synthesizability Scoring for Inorganic Complexes
-  subtitle: Assembly scores conditioned on metal identity and oxidation state
-  image: images/photo.jpg
-  description: We are developing synthesizability models for inorganic complexes built on T-REX, predicting synthetic accessibility as a function of metal identity, oxidation state, and ligand architecture. These assembly-score-type models help prioritize computationally designed candidates that are likely to be experimentally realizable.
-  tags:
-    - software
+{% include tags.html tags="publication, resource, software, representation" %}
 
-- title: Mechanophore Discovery via Transfer Learning
-  subtitle: From deformation physics to reactivity prediction to scaffold discovery
-  image: images/photo.jpg
-  description: We use a multi-stage transfer learning pipeline for mechanophore discovery. First, models learn per-bond and per-atom deformation physics from inexpensive DFT calculations. These are then transferred to predict mechanophore kinetics and reactivity under mechanical force. Finally, the trained models are deployed for high-throughput discovery of new mechanophore scaffolds with targeted properties.
-  tags:
-    - software
-    - resource
+{% include search-info.html %}
+
+{% include section.html %}
+
+## Featured
+
+{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+
+{% include section.html %}
+
+## More
+
+{% include list.html component="card" data="projects" filter="!group" style="small" %}
