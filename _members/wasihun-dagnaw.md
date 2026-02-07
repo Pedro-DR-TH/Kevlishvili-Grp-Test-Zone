@@ -1,6 +1,6 @@
 ---
 name: Wasihun Dagnaw
-image: images/photo.jpg
+image: images/Wasihun.jpeg
 role: phd
 description: Graduate Student
 affiliation: Baylor University
