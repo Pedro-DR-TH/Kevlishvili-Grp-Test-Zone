@@ -13,14 +13,14 @@
 - title: "CAT-FM: A Foundation Model for Transition-Metal Catalysis"
   subtitle: LLM-type transformers that learn catalytic cycle logic from T-REX sequences
   group: featured
-  image: images/photo.jpg
+  image: images/CAT-FM.jpg
   description: CAT-FM is a catalysis-focused foundation model that treats catalytic cycles as grammatical sequences of T-REX tokens, learning the causal logic of chemical transformations. Trained on dual data streams from high-fidelity manual datasets and automated literature extraction, CAT-FM supports downstream tasks including yield and selectivity prediction, mechanistic reasoning, and catalyst candidate generation.
   tags:
     - software
 
 - title: T-REX Cheminformatics and Property Prediction
   subtitle: ML models for photochemistry, electrochemistry, catalysis, and pharma
-  image: images/photo.jpg
+  image: images/model.jpg
   description: Building on the T-REX representation, we train property prediction and virtual screening models for transition-metal complexes across diverse application domains. Our curated datasets — tmCAT, tmPHOTO, tmBIO, and tmSCO — built using natural language processing of the primary literature, provide the training data that powers these models.
   tags:
     - software
