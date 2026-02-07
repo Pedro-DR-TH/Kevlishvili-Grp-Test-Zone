@@ -25,7 +25,7 @@ From T-REX — a canonical grammar for transition-metal complexes — to foundat
 
 {% endcapture %}
 
-{% include feature.html image="images/photo.jpg" link="projects" title="Our Projects" flip=true style="bare" text=text %}
+{% include feature.html image="images/TOC_trex.jpg" link="projects" title="Our Projects" flip=true style="bare" text=text %}
 
 {% capture text %}
 We are a new and growing group in the Department of Chemistry and Biochemistry at Baylor University. Our team brings together expertise in computational chemistry, machine learning, and data science. We are actively recruiting motivated students and postdocs.
@@ -34,4 +34,4 @@ We are a new and growing group in the Department of Chemistry and Biochemistry a
 
 {% endcapture %}
 
-{% include feature.html image="images/photo.jpg" link="team" title="Our Team" text=text %}
+{% include feature.html image="images/group_photo.jpg" link="team" title="Our Team" text=text %}
