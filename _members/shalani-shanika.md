@@ -1,6 +1,6 @@
 ---
 name: Shalani Shanika
-image: images/photo.jpg
+image: images/Shalani.jpg
 role: phd
 description: Graduate Student
 affiliation: Baylor University
