@@ -8,6 +8,7 @@
   tags:
     - representation
     - resource
+    - publication
 
 - title: "CAT-FM: A Foundation Model for Transition-Metal Catalysis"
   subtitle: LLM-type transformers that learn catalytic cycle logic from T-REX sequences
@@ -25,6 +26,7 @@
   link: https://doi.org/10.1039/D4FD00087K
   tags:
     - resource
+    - software
     - publication
 
 - title: Synthesizability Scoring for Inorganic Complexes
@@ -33,9 +35,11 @@
   description: We are developing synthesizability models for inorganic complexes built on T-REX, predicting synthetic accessibility as a function of metal identity, oxidation state, and ligand architecture. These assembly-score-type models help prioritize computationally designed candidates that are likely to be experimentally realizable.
   tags:
     - software
+    - resource
 
 - title: Mechanophore Discovery via Transfer Learning
   subtitle: From deformation physics to reactivity prediction to scaffold discovery
+  group: featured
   image: images/photo.jpg
   description: We use a multi-stage transfer learning pipeline for mechanophore discovery. First, models learn per-bond and per-atom deformation physics from inexpensive DFT calculations. These are then transferred to predict mechanophore kinetics and reactivity under mechanical force. Finally, the trained models are deployed for high-throughput discovery of new mechanophore scaffolds with targeted properties.
   tags:
