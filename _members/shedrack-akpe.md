@@ -1,6 +1,6 @@
 ---
 name: Shedrack Akpe
-image: images/photo.jpg
+image: images/Shedrack.jpg
 role: postdoc
 description: Postdoctoral Researcher
 affiliation: Baylor University
