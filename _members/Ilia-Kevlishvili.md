@@ -1,7 +1,7 @@
 ---
 name: Ilia Kevlishvili
 image: images/IK.jpg
-role: principal investigator
+role: pi
 affiliation: Baylor University
 aliases:
 
