@@ -25,6 +25,6 @@ Get in touch with the Kevlishvili Group. We are located in the Baylor Sciences B
   include button.html
   type="address"
   tooltip="Our location on Google Maps"
-  text="BSB E.234.1, Baylor University"
+  text="Baylor Sciences Building E234.1, Baylor University"
   link="https://maps.app.goo.gl/V9FW62qM5bYZDakY7"
 %}
