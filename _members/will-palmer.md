@@ -2,7 +2,7 @@
 name: Will Palmer
 image: images/photo.jpg
 role: phd
-description: Graduate Student (co-advised with Liela Romero)
+description: Graduate Student
 affiliation: Baylor University
 links:
 ---
