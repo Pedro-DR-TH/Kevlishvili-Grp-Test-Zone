@@ -19,6 +19,6 @@ nav:
 
 We are always looking for motivated students and postdocs to join the group. If you are interested in computational chemistry, machine learning, materials, and catalysis, please reach out to Ilia at [ilia_kevlishvili@baylor.edu](mailto:ilia_kevlishvili@baylor.edu) with your CV and a brief description of your research interests.
 
-We have funded summer research opportunities available for undergraduate students at Baylor
+We have funded summer research opportunities available for undergraduate students at Baylor.
 
 {% include section.html %}
