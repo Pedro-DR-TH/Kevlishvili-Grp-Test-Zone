@@ -36,7 +36,7 @@
 - title: Mechanophore Discovery via Transfer Learning
   subtitle: From deformation physics to reactivity prediction to scaffold discovery
   group: featured
-  image: images/photo.jpg
+  image: images/mechano_project.jpg
   description: We use a multi-stage transfer learning pipeline for mechanophore discovery. First, models learn per-bond and per-atom deformation physics from inexpensive DFT calculations. These are then transferred to predict mechanophore kinetics and reactivity under mechanical force. Finally, the trained models are deployed for high-throughput discovery of new mechanophore scaffolds with targeted properties.
   tags:
     - software
