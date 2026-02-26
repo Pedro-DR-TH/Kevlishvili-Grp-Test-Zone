@@ -1,6 +1,6 @@
 ---
 name: Will Palmer
-image: images/photo.jpg
+image: images/will.jpg
 role: phd
 description: Graduate Student
 affiliation: Baylor University
