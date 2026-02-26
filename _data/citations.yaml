@@ -308,7 +308,7 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.26434/chemrxiv-2023-66jqr-v2
-  title: Classification of Hemilabile Ligands Using Machine Learning
+  title: Classification of Hemilabile Ligands Using MachineLearning
   authors:
   - Ilia Kevlishvili
   - Chenru Duan
@@ -320,13 +320,13 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.26434/chemrxiv-2023-66jqr
-  title: Discovery of Hemilabile Ligands Using Machine Learning
+  title: Discovery of Hemilabile Ligands Using MachineLearning
   authors:
   - Ilia Kevlishvili
   - Chenru Duan
   - Heather Kulik
   publisher: American Chemical Society (ACS)
-  date: '2023-10-05'
+  date: '2023-10-04'
   link: https://doi.org/g9922w
   orcid: 0000-0001-8133-4165
   plugin: orcid.py
@@ -572,7 +572,7 @@
   - Emily Wearing
   - Heather Kulik
   publisher: American Chemical Society (ACS)
-  date: '2022-10-21'
+  date: '2022-10-20'
   link: https://doi.org/g99229
   orcid: 0000-0001-8133-4165
   plugin: orcid.py
