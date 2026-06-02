@@ -1,5 +1,17 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.26434/chemrxiv-2025-7s3gx/v2
+  title: 'Taming T-REX: A Canonical Language for Geometry-Aware Generative Design
+    of Transition-Metal Complexes'
+  authors:
+  - Ilia Kevlishvili
+  - Devmin Dorabawila
+  publisher: American Chemical Society (ACS)
+  date: '2026-03-23'
+  link: https://doi.org/hbt9bq
+  orcid: 0000-0001-8133-4165
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41557-025-01984-9
   title: Tetrafunctional cyclobutanes tune toughness via network strand continuity
   authors:
@@ -40,7 +52,7 @@
   authors:
   - Ilia Kevlishvili
   publisher: American Chemical Society (ACS)
-  date: '2025-12-22'
+  date: '2025-12-21'
   link: https://doi.org/hbg9gp
   orcid: 0000-0001-8133-4165
   plugin: orcid.py
@@ -102,8 +114,9 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1021/acs.inorgchem.4c04732
-  title: Force-Activated Spin-Crossover in Fe<sup>2+</sup> and Co<sup>2+</sup> Transition
-    Metal Mechanophores
+  title: "Force-Activated Spin-Crossover in Fe\n                    <sup>2+</sup>\n\
+    \                    and Co\n                    <sup>2+</sup>\n             \
+    \       Transition Metal Mechanophores"
   authors:
   - Xiao Huang
   - Ilia Kevlishvili
