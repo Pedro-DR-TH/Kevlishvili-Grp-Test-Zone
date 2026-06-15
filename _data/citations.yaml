@@ -1,5 +1,19 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1021/acs.inorgchem.6c01947
+  title: High-Throughput Discovery of Conformation-Switching Mechanophores with Enhanced
+    Reactivity and Stability
+  authors:
+  - Xiao Huang
+  - Roland St. Michel
+  - Ilia Kevlishvili
+  - Heather J. Kulik
+  publisher: Inorganic Chemistry
+  date: '2026-06-06'
+  link: https://doi.org/hb6v86
+  orcid: 0000-0001-8133-4165
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.26434/chemrxiv-2025-7s3gx/v2
   title: 'Taming T-REX: A Canonical Language for Geometry-Aware Generative Design
     of Transition-Metal Complexes'
@@ -29,6 +43,18 @@
   publisher: Nature Chemistry
   date: '2025-11-14'
   link: https://doi.org/hbbnbm
+  orcid: 0000-0001-8133-4165
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/D6DD00129G
+  title: 'Taming T-REX: a canonical language for geometry-aware generative design
+    of transition-metal complexes'
+  authors:
+  - Ilia Kevlishvili
+  - Devmin Dorabawila
+  publisher: Digital Discovery
+  date: '2026-01-01'
+  link: https://doi.org/hb6v87
   orcid: 0000-0001-8133-4165
   plugin: orcid.py
   file: orcid.yaml
