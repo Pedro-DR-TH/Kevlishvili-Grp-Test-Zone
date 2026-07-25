@@ -1,5 +1,20 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1021/acs.jcim.6c01063
+  title: 'The BOS-Lig Data Set: Accurate Ligand Charges from a Consensus Approach
+    for 66,810 Experimentally Synthesized Ligands'
+  authors:
+  - Roland G. St Michel
+  - Ryan J. Jang
+  - Aaron G. Garrison
+  - Ilia Kevlishvili
+  - Heather J. Kulik
+  publisher: Journal of Chemical Information and Modeling
+  date: '2026-07-13'
+  link: https://doi.org/hcb46z
+  orcid: 0000-0001-8133-4165
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1021/acs.inorgchem.6c01947
   title: High-Throughput Discovery of Conformation-Switching Mechanophores with Enhanced
     Reactivity and Stability
