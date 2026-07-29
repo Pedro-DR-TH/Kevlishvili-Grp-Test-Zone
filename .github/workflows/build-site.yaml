@@ -18,6 +18,8 @@ permissions:
 jobs:
   build-site:
     runs-on: ubuntu-latest
+    # fail fast instead of hanging for 6 hours on a bad asset
+    timeout-minutes: 15
 
     steps:
       - name: Debug dump
