@@ -172,6 +172,82 @@ for index, source in enumerate(sources):
 
 
 log()
+log("Removing duplicate versions of the same work")
+
+import re
+
+# doi prefixes that indicate a preprint server
+preprint_prefixes = (
+    "10.26434",  # chemrxiv
+    "10.21203",  # research square
+    "10.1101",  # biorxiv / medrxiv
+    "10.31219",  # osf preprints
+    "10.20944",  # preprints.org
+    "10.22541",  # authorea
+)
+
+
+def strip_version(_id):
+    """strip version suffix, e.g. chemrxiv-2025-7s3gx/v2 -> chemrxiv-2025-7s3gx"""
+    return re.sub(r"[/.-]v\d+$", "", str(_id).strip().lower())
+
+
+def normalize_title(title):
+    """lowercase title with punctuation and extra spaces removed, for comparing"""
+    return re.sub(r"[^a-z0-9]+", " ", str(title).lower()).strip()
+
+
+def is_preprint(citation):
+    """guess whether citation is a preprint rather than a published version"""
+    _id = str(get_safe(citation, "id", "")).lower()
+    doi = _id.replace("doi:", "")
+    publisher = str(get_safe(citation, "publisher", "")).lower()
+    if _id.startswith("arxiv:") or doi.startswith(preprint_prefixes):
+        return True
+    servers = ["chemrxiv", "biorxiv", "medrxiv", "arxiv", "research square", "preprint"]
+    return any(server in publisher for server in servers)
+
+
+def version_sort(citation):
+    """sort key, lower first, i.e. the version worth keeping"""
+    date = str(get_safe(citation, "date", "")).replace("-", "")
+    return (
+        # published version beats preprint
+        1 if is_preprint(citation) else 0,
+        # hand-curated entry beats one auto-fetched from orcid/scholar/pubmed
+        0 if get_safe(citation, "plugin", "") == "sources.py" else 1,
+        # newest beats oldest
+        -int(date or 0),
+    )
+
+
+# pick one citation per work, keeping the best version of each
+keep = []
+for citation in sorted(citations, key=version_sort):
+    _id = strip_version(get_safe(citation, "id", ""))
+    title = normalize_title(get_safe(citation, "title", ""))
+    match = next(
+        (
+            other
+            for other in keep
+            if (_id and strip_version(get_safe(other, "id", "")) == _id)
+            or (title and normalize_title(get_safe(other, "title", "")) == title)
+        ),
+        None,
+    )
+    if match:
+        log(f"Skipping {label(citation)}, duplicate of {label(match)}", indent=1)
+        continue
+    keep.append(citation)
+
+# keep original (date-sorted) order
+keep_ids = [id(citation) for citation in keep]
+citations = [citation for citation in citations if id(citation) in keep_ids]
+
+log(f"{len(citations)} citation(s) after removing duplicate versions")
+
+log()
+
 
 log("Saving updated citations")
 
