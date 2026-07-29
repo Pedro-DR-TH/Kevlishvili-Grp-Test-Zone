@@ -10,3 +10,15 @@
   image: ../images/ferrocene.jpg
 - id: doi:10.1039/D6DD00129G
   image: ../images/TOC_trex.jpg
+- id: doi:10.1021/acs.jcim.6c01063
+  image: ../images/TOC_boslig.png
+- id: doi:10.1021/acs.inorgchem.6c01947
+  image: ../images/TOC_mechanophores.png
+- id: doi:10.1038/s41557-025-01984-9
+  image: ../images/TOC_cyclobutanes.png
+- id: doi:10.1021/jacs.5c17169
+  image: ../images/TOC_ensemble_coordination.png
+- id: doi:10.1039/D4FD00087K
+  image: ../images/TOC_nlp_datasets.png
+- id: doi:10.26434/chemrxiv-2023-66jqr-v2
+  image: ../images/TOC_hemilabile.png
