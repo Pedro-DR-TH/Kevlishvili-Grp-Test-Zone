@@ -223,22 +223,21 @@ def version_sort(citation):
 
 # pick one citation per work, keeping the best version of each
 keep = []
+seen = {}
 for citation in sorted(citations, key=version_sort):
     _id = strip_version(get_safe(citation, "id", ""))
     title = normalize_title(get_safe(citation, "title", ""))
-    match = next(
-        (
-            other
-            for other in keep
-            if (_id and strip_version(get_safe(other, "id", "")) == _id)
-            or (title and normalize_title(get_safe(other, "title", "")) == title)
-        ),
-        None,
-    )
+    match = seen.get(_id) or seen.get(title)
     if match:
         log(f"Skipping {label(citation)}, duplicate of {label(match)}", indent=1)
-        continue
-    keep.append(citation)
+    else:
+        match = citation
+        keep.append(citation)
+    # remember every version's keys, so all versions collapse onto the same work
+    if _id:
+        seen[_id] = match
+    if title:
+        seen[title] = match
 
 # keep original (date-sorted) order
 keep_ids = [id(citation) for citation in keep]
