@@ -20,5 +20,12 @@
   image: ../images/TOC_ensemble_coordination.png
 - id: doi:10.1039/D4FD00087K
   image: ../images/TOC_nlp_datasets.png
-- id: doi:10.26434/chemrxiv-2023-66jqr-v2
+- id: doi:10.1021/acs.jpclett.3c02828
+  title: "Classification of Hemilabile Ligands Using Machine Learning"
+  authors:
+  - Ilia Kevlishvili
+  - Chenru Duan
+  - Heather J. Kulik
+  publisher: The Journal of Physical Chemistry Letters
+  date: '2023-12-14'
   image: ../images/TOC_hemilabile.png
