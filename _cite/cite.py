@@ -193,8 +193,8 @@ def strip_version(_id):
 
 
 def normalize_title(title):
-    """lowercase title with punctuation and extra spaces removed, for comparing"""
-    return re.sub(r"[^a-z0-9]+", " ", str(title).lower()).strip()
+    """lowercase title with punctuation and all spaces removed, for comparing"""
+    return re.sub(r"[^a-z0-9]+", "", str(title).lower())
 
 
 def is_preprint(citation):
