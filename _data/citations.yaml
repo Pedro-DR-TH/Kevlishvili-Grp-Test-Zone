@@ -338,9 +338,8 @@
   date: '2023-10-18'
   link: https://doi.org/g9922v
   orcid: 0000-0001-8133-4165
-  plugin: sources.py
-  file: sources.yaml
-  image: ../images/TOC_hemilabile.png
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1021/jacs.2c04289
   title: "Endohedrally Functionalized Metal\u2013Organic Cage-Cross-Linked Polymer\
     \ Gels as Modular Heterogeneous Catalysts"
@@ -569,3 +568,15 @@
   orcid: 0000-0001-8133-4165
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1021/acs.jpclett.3c02828
+  title: Classification of Hemilabile Ligands Using Machine Learning
+  authors:
+  - Ilia Kevlishvili
+  - Chenru Duan
+  - Heather J. Kulik
+  publisher: The Journal of Physical Chemistry Letters
+  date: '2023-12-14'
+  link: https://doi.org/g8vxx2
+  image: ../images/TOC_hemilabile.png
+  plugin: sources.py
+  file: sources.yaml
