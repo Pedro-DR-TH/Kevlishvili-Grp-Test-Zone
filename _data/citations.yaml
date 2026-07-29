@@ -328,15 +328,15 @@
   orcid: 0000-0001-8133-4165
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.26434/chemrxiv-2023-66jqr-v2
-  title: Classification of Hemilabile Ligands Using MachineLearning
+- id: doi:10.26434/chemrxiv-2023-66jqr
+  title: Discovery of Hemilabile Ligands Using MachineLearning
   authors:
   - Ilia Kevlishvili
   - Chenru Duan
   - Heather Kulik
   publisher: American Chemical Society (ACS)
-  date: '2023-10-18'
-  link: https://doi.org/g9922v
+  date: '2023-10-04'
+  link: https://doi.org/g9922w
   orcid: 0000-0001-8133-4165
   plugin: orcid.py
   file: orcid.yaml
