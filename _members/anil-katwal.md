@@ -1,7 +1,7 @@
 ---
 name: Anil Katwal
-image: anil_computer.JPG
-image_hover: anil_forward.JPG
+image: images/anil_computer.JPG
+image_hover: images/anil_forward.JPG
 role: postdoc
 description: Postdoctoral Researcher
 affiliation: Baylor University
