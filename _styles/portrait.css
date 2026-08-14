@@ -73,4 +73,30 @@
   display: none;
 }
 
+.portrait-image-wrap {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.portrait-image-wrap .portrait-image {
+  margin-bottom: 0;
+  transition: opacity 0.3s ease;
+}
+
+.portrait-image-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.portrait:hover .portrait-image-hover {
+  opacity: 1;
+}
+
+.portrait:hover .portrait-image-default {
+  opacity: 0;
+}
+
 /*# sourceMappingURL=portrait.css.map */
