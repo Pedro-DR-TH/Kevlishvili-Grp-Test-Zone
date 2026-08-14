@@ -22,13 +22,24 @@
       {% include icon.html icon=type.icon %}
     {% endif %}
 
+    <div class="portrait-image-wrap">
+  <img
+    src="{{ member.image | relative_url | uri_escape }}"
+    class="portrait-image portrait-image-default"
+    alt="member portrait"
+    loading="lazy"
+    {% include fallback.html %}
+  >
+  {% if member.image_hover %}
     <img
-      src="{{ member.image | relative_url | uri_escape }}"
-      class="portrait-image"
+      src="{{ member.image_hover | relative_url | uri_escape }}"
+      class="portrait-image portrait-image-hover"
       alt="member portrait"
       loading="lazy"
       {% include fallback.html %}
     >
+  {% endif %}
+</div>
 
     {% if member.name %}
       <span class="portrait-name">
