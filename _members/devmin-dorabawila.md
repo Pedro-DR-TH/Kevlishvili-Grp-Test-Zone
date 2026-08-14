@@ -1,7 +1,7 @@
 ---
 name: Devmin Dorabawila
-image: images/devmin_forward.JPG
-image_hover: images/devmin_computer.JPG
+image: images/devmin_computer.JPG
+image_hover: images/devmin_forward.JPG
 role: phd
 description: Graduate Student
 affiliation: Baylor University
