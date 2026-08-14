@@ -1,7 +1,7 @@
 ---
 name: Ilia Kevlishvili
-image: kev_computer.JPG
-image_hover: kev_forward.JPG
+image: images/kev_computer.JPG
+image_hover: images/kev_forward.JPG
 role: pi
 affiliation: Baylor University
 aliases:
